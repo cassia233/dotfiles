@@ -2,7 +2,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/usr/share/oh-my-zsh
 
-export PATH=~/.npm-global/bin:$PATH
+export PATH=~/.npm-global/bin:~/.local/bin:$PATH
 # Set name of the theme to load. Optionally, if you set this to "random"
 ZSH_THEME="robbyrussell"
 
@@ -86,3 +86,4 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+alias v="vim"
