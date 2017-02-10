@@ -1,3 +1,4 @@
+URxvt.letterSpace: -1
 URxvt*depth: 32 
 /* Couleurs Tango */
 URxvt.foreground: #C8C8C8
@@ -22,7 +23,7 @@ URxvt.color15:    #EEEEEC
 URxvt.transparent: true
 URxvt.shading:     10
 URxvt.fading:      40
-URxvt.font:        xft:Inconsolata:pixelsize=18
+URxvt.font:        xft:FuraCode Nerd Font:pixelsize=16
 
 URxvt.scrollBar:         false
 URxvt.scrollTtyOutput:   false
