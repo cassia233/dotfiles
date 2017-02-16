@@ -50,7 +50,11 @@ var RULES = [
         ".cn"
     ],
     //custom-list
-    [
+   [ ".github.com",   
+   ".dilidili.wang",
+   ".sohucs.com",
+   ".baidustatic.com",
+   ".jfrtf.com",
     ".videojj.com",
     "baifendian.com",
     ".aliyuncs.com",

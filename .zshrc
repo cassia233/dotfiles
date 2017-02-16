@@ -87,3 +87,4 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 alias v="vim"
+export TERM=xterm

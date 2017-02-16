@@ -23,7 +23,7 @@ URxvt.color15:    #EEEEEC
 URxvt.transparent: true
 URxvt.shading:     10
 URxvt.fading:      40
-URxvt.font:        xft:Fira Code:size=12
+URxvt.font:        xft:Fira Code:pixelsize=16
 
 URxvt.scrollBar:         false
 URxvt.scrollTtyOutput:   false
