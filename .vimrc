@@ -34,16 +34,10 @@ Plug 'Valloric/YouCompleteMe'
 call plug#end()
 let NERDTreeMinimalUI = 1
 let NERDTreeShowHidden=1
-"theme
-set background=dark
-colorscheme deep-space
-"if has("termguicolors")
-"   set termguicolors
-"endif
 let g:nerdtree_tabs_autofind = 1
 map <C-z> :NERDTreeToggle<CR>
 let g:rainbow_active = 1
-set undodir=/tmp/vimundo
+set undodir=/tmp
 autocmd FileType python nnoremap <LocalLeader>= :0,$!yapf --style='{based_on_style: pep8, indent_width: 4}'<CR>
 let g:ultisnips_python_style='google'
 
