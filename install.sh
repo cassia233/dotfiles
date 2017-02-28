@@ -9,6 +9,7 @@ ln -sf $HOME/dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -sf $HOME/dotfiles/.Xdefaults $HOME/.Xdefaults
 ln -sf $HOME/dotfiles/.npmrc $HOME/.npmrc
 ln -sf $HOME/dotfiles/.zshrc  $HOME/.zshrc
+ln -sf $HOME/dotfiles/.xprofile  $HOME/.xprofile
 mkdir -p /tmp/vimundo
 
 vim +PlugInstall
