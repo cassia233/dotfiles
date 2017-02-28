@@ -52,6 +52,9 @@ var RULES = [
     //custom-list
    [
    ".dilidili.wang",
+   ".outdvcsss.com",
+   ".feng.com",
+   ".coding.net",
    ".zhimg.com",
    ".sohucs.com",
    ".baidustatic.com",
