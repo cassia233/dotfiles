@@ -23,9 +23,18 @@ URxvt.color15:    #EEEEEC
 URxvt.transparent: true
 URxvt.shading:     10
 URxvt.fading:      40
-URxvt.font:        xft:Fira Code:size=12
+URxvt.font:        xft:Fira Code:pixelsize=16
 
 URxvt.scrollBar:         false
 URxvt.scrollTtyOutput:   false
 URxvt.scrollWithBuffer:  true
 URxvt.scrollTtyKeypress: true
+Xft.dpi:	96
+URxvt.keysym.Home: \033[1~
+URxvt.keysym.End: \033[4~
+URxvt.keysym.KP_Home: \033[1~
+URxvt.keysym.KP_End:  \033[4~
+! Input Method set
+URxvt.inputMethod:fcitx
+URxvt.imFont:Liberation Mono
+URxvt.preeditType:OverTheSpot
